@@ -1,0 +1,54 @@
+
+body{
+    background-color: aquamarine;
+}
+
+h2 {
+    text-align: center;
+    font-size: x-large;
+    color: red;
+}
+
+.grille {
+    display: flex;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border: 3px rgb(29, 29, 149) outset;
+    background-color: rgb(29, 29, 149);
+}
+
+.button{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.score{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+.case {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+  
+.rouge {
+    background-color: red;
+}
+
+.jaune {
+    background-color: yellow;
+}
